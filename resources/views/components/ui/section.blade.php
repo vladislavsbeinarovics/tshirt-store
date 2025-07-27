@@ -1,0 +1,1 @@
+<section {{ $attributes->merge(['class' => 'p-4 border']) }}>{{ $slot }}</section>
