@@ -2,7 +2,7 @@
     @foreach ($products as $product)
         <a href="{{ route('shop.show', $product) }}" class="border p-2">
             <img 
-                src="{{ asset('storage/products/' . $product->image_path) }}"
+                src="{{ $product->image_url }}"
                 alt="{{ $product->name }}"
                 class="w-full"
             >

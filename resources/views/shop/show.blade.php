@@ -1,6 +1,5 @@
 <x-layout.app title="{{ $product->name }}" class="grid grid-cols-1 gap-4 sm:grid-cols-3">
     <img src="{{ $product->image_url }}" class="w-full h-full col-span-1 sm:col-span-2">
-   
     <div class="flex flex-col gap-4">
         <h1 class="text-4xl">{{ $product->name }}</h1>
         
